@@ -1,0 +1,6 @@
+|OrderNumber|OrderLineNumber|ProductNumber|Quantity|Name|Description|Price|ProductGroup|OrderDate|CustomerName|CustomerNumber|
+|12345|0001|500CF|1|5-Story Fancy Cake|Super awesome cake|75.00|Fancy Cakes|2022-03-05|Essie Anawalt|555555|
+|12345|0002|200CC|2|2-Story Cat Cake|Awesome cat cake|35.00|Fancy Cakes|2022-03-05|Essie Anawalt|555555|
+|12345|0003|50CCP|6|Cat Cupcakes|Super adorable cat cupcakes|2.50|Cupcakes|2022-03-05|Essie Anawalt|555555|
+|12345|0004|50HCP|6|Hedgehog Cupcakes|Ultra adorable hedgehog cupcakes|2.50|Cupcakes|2022-03-05|Essie Anawalt|555555|
+|12345|0005|50OCP|6|Owl Cupcakes|Exceedingly adorable owl cupcakes|2.50|Cupcakes|2022-03-05|Essie Anawalt|555555|

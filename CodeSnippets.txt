@@ -1,0 +1,70 @@
+
+
+
+-------------------------
+
+// Read each file in app_data & parse data into models
+// Currently using a dummy model of: 
+public class Order
+{
+    public string OrderId { get; set; }
+    public string OrderLineNumber { get; set; }
+}
+
+// Seed code:
+public static void SeedData()
+{
+    try
+        {
+            string[] dirs = Directory.GetFiles(@"app_data");
+            Console.WriteLine("The number of files is {0}.", dirs.Length);
+
+            List<Order> orders = new List<Order>();
+
+            foreach (string dir in dirs)
+            {
+                List<string> lines = File.ReadAllLines(dir).Skip(1).ToList();
+
+                foreach (var line in lines)
+                {
+                    string[] entries = line.Split("|");
+
+                    if (!String.IsNullOrEmpty(entries[1]))
+                    {
+                        Order newOrder = new Order();
+
+                        newOrder.OrderId = entries[1];
+                        newOrder.OrderLineNumber = entries[2];
+
+                        orders.Add(newOrder);
+                    }
+                }
+            }
+            foreach (var order in orders)
+            {
+                Console.WriteLine($"{ order.OrderId } { order.OrderLineNumber }");
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("The process failed: {0}", e.ToString());
+        }
+    }
+}
+
+
+-------------------------
+Was in the Index() in Controller (moved to Service)
+
+var orderContext = _context.Orders
+    .Include(c => c.Customer);
+return View(await orderContext.ToListAsync());
+
+            
+var orderContext = _context.OrderViewModel
+    .Include(o => o.Orders)
+    .Include(c => c.Customers)
+    .Include(p => p.Products)
+    .Include(g => g.ProductGroup);
+return View(await orderContext.ToListAsync());
+            

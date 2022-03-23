@@ -1,0 +1,6 @@
+|OrderNumber|OrderLineNumber|ProductNumber|Quantity|Name|Description|Price|ProductGroup|OrderDate|CustomerName|CustomerNumber|
+|42345|0001|200SC|1|2-Story Starwars Cake|Awesome starwars cake|35.00|Fancy Cakes|2022-03-10|Fe Male|112233|
+|42345|0002|333BT|6|Birra Tacos|The most amazing taco ever|3.50|Tacos|2022-03-10|Fe Male|112233|
+|42345|0003|1AN|1|Almond|A single almond handpicked for you|250.15|Nuts|2022-03-10|Fe Male|112233|
+|42345|0004|PS5|1|PlayStation 5|A new PlayStation 5|533.13|Tech|2022-03-10|Fe Male|112233|
+|42345|0005|50TC|12|Tamagachi Cookie|The most adorable cookie ever|4.50|Cookies|2022-03-10|Fe Male|112233|

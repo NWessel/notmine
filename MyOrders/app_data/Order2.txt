@@ -1,0 +1,7 @@
+|OrderNumber|OrderLineNumber|ProductNumber|Quantity|Name|Description|Price|ProductGroup|OrderDate|CustomerName|CustomerNumber|
+|12346|0001|600CF|1|6-Story Fancy Cake|Even more super awesome cake|95.00|Fancy Cakes|2022-03-08|Fred Flinstone|556899|
+|12346|0002|200SC|2|2-Story Starwars Cake||35.00|Fancy Cakes|2022-03-08|Fred Flinstone|556899|
+|12346|0003|50PC|6|Panda Cookie|Super adorable panda cookies|2.50|Cookies|2022-03-08|Fred Flinstone|556899|
+|12346|0004|50MC|6|Mario Cookies|Ultra adorable mario cookies|2.50|Cookies|2022-03-08|Fred Flinstone|556899|
+|12346|0005|50TC|6|Taco Cookies||2.50|Cookies|2022-03-08|Fred Flinstone|556899|
+|12346|0006|50OCP|6|Owl Cupcakes|Exceedingly adorable owl cupcakes|2.50|Cupcakes|2022-03-08|Fred Flinstone|556899|
